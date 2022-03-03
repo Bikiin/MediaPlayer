@@ -8,7 +8,7 @@ const ADs = {
             const numberBanner = Math.floor((Math.random() * (7 - 1) + 1))
             const seconds = Math.floor((Math.random() * (7000 - 3000) + 3000))
             setTimeout(()=>{
-                banner.src = `/MediaPlayer/assets/Plugins/banners/banner_${numberBanner}.png`
+                banner.src = `/assets/Plugins/banners/banner_${numberBanner}.png`
                 banner.style.setProperty('display', 'block')
                 delet.style.setProperty('display', 'block')
             }, seconds)
